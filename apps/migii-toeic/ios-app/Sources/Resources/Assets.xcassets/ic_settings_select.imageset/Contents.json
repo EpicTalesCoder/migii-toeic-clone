@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "ic_settings_select.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

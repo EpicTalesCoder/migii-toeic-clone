@@ -1,0 +1,94 @@
+name: MigiiToeic
+options:
+  bundleIdPrefix: com.rebuild
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+  knownRegions:
+    - en
+    - vi
+    - ja
+    - ko
+    - zh-Hans
+    - zh-Hant
+    - de
+    - es
+    - fr
+    - id
+    - pt-PT
+    - th
+    - Base
+
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+    SWIFT_VERSION: "5.0"
+    ARCHS: arm64
+    TARGETED_DEVICE_FAMILY: "1"
+    SUPPORTS_MACCATALYST: NO
+    ENABLE_BITCODE: NO
+    CODE_SIGNING_ALLOWED: NO
+    CODE_SIGNING_REQUIRED: NO
+    CODE_SIGN_IDENTITY: ""
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  MigiiToeic:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Sources
+        excludes:
+          - "Resources/Info.plist"
+          - "Resources/Entitlements.plist"
+    dependencies:
+      - sdk: libsqlite3.tbd
+      - sdk: StoreKit.framework
+      - sdk: Speech.framework
+      - sdk: AVFoundation.framework
+      - sdk: WebKit.framework
+      - sdk: CoreData.framework
+      - sdk: AuthenticationServices.framework
+      - sdk: UserNotifications.framework
+      - sdk: SafariServices.framework
+      - sdk: MessageUI.framework
+      - sdk: Security.framework
+      - sdk: ImageIO.framework
+    settings:
+      base:
+        PRODUCT_NAME: MigiiToeic
+        PRODUCT_BUNDLE_IDENTIFIER: com.rebuild.migiitoeic
+        INFOPLIST_FILE: Sources/Resources/Info.plist
+        MARKETING_VERSION: "1.4.1"
+        CURRENT_PROJECT_VERSION: "51"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
+      configs:
+        Release:
+          ONLY_ACTIVE_ARCH: NO
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+          STRIP_INSTALLED_PRODUCT: NO
+          COPY_PHASE_STRIP: NO
+    scheme:
+      testTargets:
+        - MigiiToeicTests
+
+  MigiiToeicTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Tests
+    dependencies:
+      - target: MigiiToeic
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""

@@ -1,0 +1,186 @@
+{
+    "Listening": [
+        {
+            "part": 1,
+            "part_index": 1,
+            "kind": "picture description",
+            "number_ques": 10,
+            "name": "사진",
+            "description": "각 질문에 대해 그림이 표시되고 4개의 짧은 설명을 듣게 됩니다. 진술은 한 번만 말할 것입니다. 그들은 당신의 시험 책에 인쇄되지 않을 것이므로 화자가 말하는 것을 이해하기 위해 주의 깊게 들어야 합니다. 네 가지 문장을 들을 때, 그림을 보고 그림에서 본 것을 가장 잘 설명하는 문장을 고르십시오. 가장 좋은 답을 선택하십시오 A, B, C 또는 D",
+            "description_en": "For each question, you will see a picture and you will hear four short statements. The statements will be spoken just one time. They will not be printed in your test book so you must listen carefully to understand what the speaker says. When you hear the four statements, look at the picture and choose the statement that best describes what you see in the picture. Choose the best answer A, B, C or D",
+            "icon" : "ic_part_1",
+            "isLock" : false
+        },
+        {
+            "part": 2,
+            "part_index": 2,
+            "kind": "question - response",
+            "number_ques": 10,
+            "name": "질문-응답",
+            "description": "시험의 이 부분에서는 영어로 말하는 질문이나 진술을 듣게 될 것이며 세 가지 응답이 뒤따르게 되며 역시 영어로 말하게 됩니다. 질문이나 진술과 응답은 한 번만 말할 것입니다. 시험지에는 인쇄되지 않으니 잘 들어야 합니다. 당신은 각 질문이나 진술에 대한 최선의 응답을 선택해야 합니다.",
+            "description_en": "In this part of the test, you will hear a question or statement spoken in English, followed by three responses, also spoken in English. The question or statement and the responses will be spoken just one time. They will not be printed in your test book, so you must listen carefully. You are to choose the best response to each question or statement. ",
+            "icon" : "ic_part_2",
+            "isLock" : false
+        },
+        {
+            "part": 3,
+            "part_index": 3,
+            "kind": "short conversations",
+            "number_ques": 5,
+            "name": "대화",
+            "description": "두 사람의 대화를 듣게 됩니다. 각 대화에서 화자가 말하는 내용에 대해 세 가지 질문에 답해야 합니다. 각 질문에 대한 가장 좋은 답을 선택하고 답안지에 문자 (A), (B), (C) 또는 (D)를 표시하십시오. 대화는 시험 책에 인쇄되지 않으며 한 번만 말할 것입니다.",
+            "description_en": "You will hear some conversations between two people. You will be asked to answer three questions about what the speakers say in each conversation. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The conversations will not be printed in your test book and will be spoken only one time.",
+            "icon" : "ic_part_3",
+            "isLock" : true
+        },
+        {
+            "part": 4,
+            "part_index": 4,
+            "kind": "short talks",
+            "number_ques": 5,
+            "name": "짧은 대화",
+            "description": "한 명의 연사가 발표하는 몇 가지 연설을 듣게 될 것입니다. 각 강연에서 화자가 말하는 내용에 대해 세 가지 질문에 답해야 합니다. 각 질문에 대한 가장 좋은 답을 선택하고 답안지에 문자 (A), (B), (C) 또는 (D)를 표시하십시오. 연설은 시험 책에 인쇄되지 않으며 한 번만 말할 것입니다.",
+            "description_en": "You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The talks will not be printed in your test book and will be spoken only one time.",
+            "icon" : "ic_part_4",
+            "isLock" : true
+        }
+    ],
+    "Reading": [
+        {
+            "part": 5,
+            "part_index": 5,
+            "kind": "incomplete sentences",
+            "number_ques": 5,
+            "name": "불완전한 문장",
+            "description": "아래의 각 문장에 단어나 구가 빠져 있습니다. 각 문장 아래에 4개의 답변 선택지가 제공됩니다. 문장을 완성할 가장 좋은 답을 고르세요. 그런 다음 답안지에 문자 (A), (B), (C) 또는 (D)를 표시하십시오.",
+            "description_en": "A word or pharse is missing in each of the sentences below. Four answer choices are given below each sentence. Select the best answer to complete the sentence. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_5",
+            "isLock" : false
+        },
+        {
+            "part": 6,
+            "part_index": 6,
+            "kind": "text completion",
+            "number_ques": 5,
+            "name": "텍스트 완성",
+            "description": "이어지는 텍스트를 읽으십시오. 일부 문장에서 단어나 구가 누락되었습니다. 각 문장 아래에 4개의 답변 선택지가 제공됩니다. 텍스트를 완성하는 데 가장 적합한 답을 선택하세요. 그런 다음 답안지에 문자 (A), (B), (C) 또는 (D)를 표시하십시오.",
+            "description_en": "Read the texts that follow. A word or pharse is missing in some of the sentences. Four answer choices are given below each of the sentences. Select the best answer to complete the text. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_6",
+            "isLock" : true
+        },
+        {
+            "part": 7,
+            "part_index": 7,
+            "kind": "reading comprehension",
+            "number_ques": 5,
+            "name": "독해력",
+            "description": "이 부분에서는 잡지 및 신문 기사, 편지 및 광고와 같은 텍스트를 선택하여 읽습니다. 각 텍스트 뒤에는 여러 질문이 이어집니다. 각 질문에 대한 가장 좋은 답을 선택하고 답안지에 문자 (A), (B), (C) 또는 (D)를 표시하십시오.",
+            "description_en": "In this part you will read a selection of texts, such as magazine and newspaper articles, letters, and advertisements. Each text is followed by several questions. Select the best answer for each question and mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_7",
+            "isLock" : true
+        }
+    ],
+    "Speaking": [
+        {
+            "part": 8,
+            "part_index": 1,
+            "kind": "read a text aloud",
+            "number_ques": 5,
+            "name": "텍스트를 소리 내어 읽기",
+            "description": "이 시험의 이 부분에서는 화면에 표시된 텍스트를 읽어야 합니다. 준비 시간은 45초이며, 그런 다음 텍스트를 소리 내어 읽을 시간이 45초 있습니다.",
+            "description_en": "In this part of the test, you will read the text on the screen. You will have 45 seconds to prepare. Then you will have 45 seconds to read the text aloud.",
+            "icon" : "ic_speaking_part1",
+            "isLock" : false
+        },
+        {
+            "part": 9,
+            "part_index": 2,
+            "kind": "describe a picture",
+            "number_ques": 5,
+            "name": "사진 설명하기",
+            "description": "이 시험의 이 부분에서는 화면에 표시된 사진을 가능한 한 자세하게 설명해야 합니다. 대답 준비 시간은 45초이며, 그런 다음 사진에 대해 이야기할 시간이 45초 있습니다.",
+            "description_en": "In this part of the test, you will describe a picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response. Then you will have 45 seconds to speak about the picture.",
+            "icon" : "ic_speaking_part2",
+            "isLock" : true
+        },
+        {
+            "part": 10,
+            "part_index": 3,
+            "kind": "respond to questions (1)",
+            "number_ques": 3,
+            "name": "질문에 답하기 (1)",
+            "description": "이 시험의 이 부분에서는 세 가지 질문에 답변해야 합니다. 각 질문 전에 3초 동안 준비할 시간이 있습니다. 비프음을 듣고 나면 즉시 대답을 시작하십시오. 질문 4와 5에 답하기 위해 15초가 주어지며, 질문 6에 답하기 위해 30초가 주어집니다.",
+            "description_en": "In this part of the test, you will answer three questions. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 4 and 5, and you will have 30 seconds to respond to Question 6.",
+            "icon" : "ic_speaking_part3",
+            "isLock" : true
+        },
+        {
+            "part": 11,
+            "part_index": 4,
+            "kind": "respond to questions (2)",
+            "number_ques": 3,
+            "name": "질문에 답하기 (2)",
+            "description": "이 시험의 이 부분에서는 제공된 정보를 기반으로 세 가지 질문에 답변해야 합니다. 질문이 시작되기 전에 정보를 읽는 데 45초가 있습니다. 각 질문 전에 3초 동안 준비할 시간이 있습니다. 비프음을 듣고 나면 즉시 대답을 시작하십시오. 질문 7과 8에 답하기 위해 15초가 주어지며, 질문 9에 답하기 위해 30초가 주어집니다.",
+            "description_en": "In this part of the test, you will answer three questions based on information provided. You will have 45 seconds to read the information before the question begins. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 7 and 8, and you will have 30 seconds to respond to Question 9.",
+            "icon" : "ic_speaking_part4",
+            "isLock" : true
+        },
+        {
+            "part": 12,
+            "part_index": 5,
+            "kind": "propose a solution",
+            "number_ques": 3,
+            "name": "해결책 제안하기",
+            "description": "이 시험의 이 부분에서는 문제가 제시되고 그에 대한 해결책을 제안하라고 요청됩니다.\n준비하는 데 45초가 주어집니다. 그런 다음 60초 동안 이야기할 시간이 주어집니다.\n당신의 응답에서는\n- 문제를 인식한다는 것을 보이고\n- 문제를 해결하는 방법을 제안하세요.",
+            "description_en": "In this part of the test, you will be presented with a problem and asked to propose a solution.\nYou will have 45 seconds to prepare. Then you will have 60 seconds to speak.\nIn your response, be sure to\n- Show that you recognize the problem, and\n- Propose a way of dealing with the problem.",
+            "icon" : "ic_speaking_part5",
+            "isLock" : true
+        },
+        {
+            "part": 13,
+            "part_index": 6,
+            "kind": "express an opinion",
+            "number_ques": 3,
+            "name": "의견 표명하기",
+            "description": "이 시험의 이 부분에서는 특정 주제에 대한 의견을 표현하게 됩니다. 주어진 시간 내에 가능한 한 많이 이야기하십시오. 준비 시간은 15초이며, 그런 다음 60초 동안 이야기할 시간이 있습니다.",
+            "description_en": "In this part of the test, you will give your opinion about a specific topic. Be sure to say as much as you can in the time allowed. You will have 15 seconds to prepare. Then you will have 60 seconds to speak.",
+            "icon" : "ic_speaking_part6",
+            "isLock" : true
+        }
+    ],
+    "Writing": [
+        {
+            "part": 14,
+            "part_index": 1,
+            "kind": "write a sentence",
+            "number_ques": 5,
+            "name": "문장을 쓰다",
+            "description": "- 각 사진마다 문장에 사용해야 할 두 단어 또는 구를 제공합니다.\n- 단어의 형태를 변경하고 단어를 어떤 순서로든 사용할 수 있습니다.",
+            "description_en": "- With each picture, you’ll be given two words or phrases that you need to use in a sentence.\n- You can change the forms of the words and use the words in any order.",
+            "icon" : "ic_writing_part1",
+            "isLock" : false
+        },
+        {
+            "part": 15,
+            "part_index": 2,
+            "kind": "respond a request",
+            "number_ques": 3,
+            "name": "요청에 응답하다",
+            "description": "- 이메일 응답을 얼마나 잘 작성할 수 있는지 보여주세요.\n- 각 이메일을 읽고 답하는 데 10분이 소요됩니다.",
+            "description_en": "- Show how well you can write email responses.\n- 10 minutes to read and answer each email.",
+            "icon" : "ic_writing_part2",
+            "isLock" : true
+        },
+        {
+            "part": 16,
+            "part_index": 3,
+            "kind": "write an opinion essay",
+            "number_ques": 3,
+            "name": "의견 에세이를 쓰다",
+            "description": "- 문제에 대한 의견을 진술, 설명 및 지원하라는 질문에 대한 에세이를 작성하십시오.\n- 일반적으로 효과적인 에세이에는 최소 300 단어가 포함될 것입니다.",
+            "description_en": "- Write an essay in response to a question that asks you to state, explain and support your opinion on an issue.\n- Typically, an effective essay will contain a minimum of 300 words.",
+            "icon" : "ic_writing_part3",
+            "isLock" : true
+        }
+    ]
+}

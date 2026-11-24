@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "bg_route_current_2.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "images": [
+    {
+      "filename": "ic_submit_exam.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

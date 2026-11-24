@@ -1,0 +1,186 @@
+{
+    "Listening": [
+        {
+            "part": 1,
+            "part_index": 1,
+            "kind": "picture description",
+            "number_ques": 10,
+            "name": "照片",
+            "description": "對於每個問題，您將看到一張圖片，您將聽到四個簡短的陳述。 這些聲明將只講一次。 它們不會打印在您的試卷中，因此您必須仔細聆聽以了解演講者所說的內容。 當您聽到這四個陳述時，請查看圖片並選擇最能描述您在圖片中看到的內容的陳述。 選擇最佳答案 A、B、C 或 D",
+            "description_en": "For each question, you will see a picture and you will hear four short statements. The statements will be spoken just one time. They will not be printed in your test book so you must listen carefully to understand what the speaker says. When you hear the four statements, look at the picture and choose the statement that best describes what you see in the picture. Choose the best answer A, B, C or D",
+            "icon" : "ic_part_1",
+            "isLock" : false
+        },
+        {
+            "part": 2,
+            "part_index": 2,
+            "kind": "question - response",
+            "number_ques": 10,
+            "name": "問答",
+            "description": "在這部分測試中，您將聽到一個用英語說出的問題或陳述，然後是三個同樣用英語說出的回答。 問題或陳述和回答將只說一次。 它們不會印在你的試卷上，所以你必須仔細聽。 你要為每個問題或陳述選擇最好的回答。",
+            "description_en": "In this part of the test, you will hear a question or statement spoken in English, followed by three responses, also spoken in English. The question or statement and the responses will be spoken just one time. They will not be printed in your test book, so you must listen carefully. You are to choose the best response to each question or statement. ",
+            "icon" : "ic_part_2",
+            "isLock" : false
+        },
+        {
+            "part": 3,
+            "part_index": 3,
+            "kind": "short conversations",
+            "number_ques": 5,
+            "name": "對話",
+            "description": "你會聽到兩個人之間的一些對話。 您將被要求回答三個關於演講者在每次對話中所說的話的問題。 選擇對每個問題的最佳回答，並在答題紙上標記字母 (A)、(B)、(C) 或 (D)。 對話不會打印在您的試卷中，只會說一次。",
+            "description_en": "You will hear some conversations between two people. You will be asked to answer three questions about what the speakers say in each conversation. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The conversations will not be printed in your test book and will be spoken only one time.",
+            "icon" : "ic_part_3",
+            "isLock" : true
+        },
+        {
+            "part": 4,
+            "part_index": 4,
+            "kind": "short talks",
+            "number_ques": 5,
+            "name": "簡短的談話",
+            "description": "您將聽到一位演講者的一些演講。 您將被要求回答三個關於演講者在每次演講中所說內容的問題。 選擇對每個問題的最佳回答，並在答題紙上標記字母 (A)、(B)、(C) 或 (D)。 演講不會印在你的試卷上，只會講一次。",
+            "description_en": "You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The talks will not be printed in your test book and will be spoken only one time.",
+            "icon" : "ic_part_4",
+            "isLock" : true
+        }
+    ],
+    "Reading": [
+        {
+            "part": 5,
+            "part_index": 5,
+            "kind": "incomplete sentences",
+            "number_ques": 5,
+            "name": "不完整的句子",
+            "description": "以下每個句子中都缺少一個單詞或短語。 每個句子下面給出四個答案選擇。 選擇最佳答案完成句子。 然後在答題紙上標記字母 (A)、(B)、(C) 或 (D)。",
+            "description_en": "A word or pharse is missing in each of the sentences below. Four answer choices are given below each sentence. Select the best answer to complete the sentence. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_5",
+            "isLock" : false
+        },
+        {
+            "part": 6,
+            "part_index": 6,
+            "kind": "text completion",
+            "number_ques": 5,
+            "name": "文本完成",
+            "description": "閱讀下面的文字。 某些句子中缺少單詞或短語。 每個句子下面給出了四個答案選擇。 選擇最佳答案以完成文本。 然後在答題紙上標記字母 (A)、(B)、(C) 或 (D)。",
+            "description_en": "Read the texts that follow. A word or pharse is missing in some of the sentences. Four answer choices are given below each of the sentences. Select the best answer to complete the text. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_6",
+            "isLock" : true
+        },
+        {
+            "part": 7,
+            "part_index": 7,
+            "kind": "reading comprehension",
+            "number_ques": 5,
+            "name": "閱讀理解",
+            "description": "在這一部分中，您將閱讀一些文本，例如雜誌和報紙文章、信件和廣告。 每個文本後面都有幾個問題。 為每個問題選擇最佳答案，並在答題紙上標記字母 (A)、(B)、(C) 或 (D)。",
+            "description_en": "In this part you will read a selection of texts, such as magazine and newspaper articles, letters, and advertisements. Each text is followed by several questions. Select the best answer for each question and mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_7",
+            "isLock" : true
+        }
+    ],
+    "Speaking": [
+        {
+            "part": 8,
+            "part_index": 1,
+            "kind": "read a text aloud",
+            "number_ques": 5,
+            "name": "朗讀一段文字",
+            "description": "在這個測試的部分中，您將朗讀屏幕上的文字。您將有45秒的時間準備。然後，您將有45秒的時間朗讀文字。",
+            "description_en": "In this part of the test, you will read the text on the screen. You will have 45 seconds to prepare. Then you will have 45 seconds to read the text aloud.",
+            "icon" : "ic_speaking_part1",
+            "isLock" : false
+        },
+        {
+            "part": 9,
+            "part_index": 2,
+            "kind": "describe a picture",
+            "number_ques": 5,
+            "name": "描述一幅圖片",
+            "description": "在這個測試的部分中，您將嘗試以盡可能詳細的方式描述屏幕上的圖片。您將有45秒的時間準備您的回應。然後，您將有45秒的時間談論有關該圖片的內容。",
+            "description_en": "In this part of the test, you will describe a picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response. Then you will have 45 seconds to speak about the picture.",
+            "icon" : "ic_speaking_part2",
+            "isLock" : true
+        },
+        {
+            "part": 10,
+            "part_index": 3,
+            "kind": "respond to questions (1)",
+            "number_ques": 3,
+            "name": "回答問題（1）",
+            "description": "在這個測試的部分中，您將回答三個問題。在每個問題之前，您將有3秒的時間準備。在聽到嗶嗶聲後立即開始回答。您將有15秒的時間回答第4和第5個問題，並且您將有30秒的時間回答第6個問題。",
+            "description_en": "In this part of the test, you will answer three questions. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 4 and 5, and you will have 30 seconds to respond to Question 6.",
+            "icon" : "ic_speaking_part3",
+            "isLock" : true
+        },
+        {
+            "part": 11,
+            "part_index": 4,
+            "kind": "respond to questions (2)",
+            "number_ques": 3,
+            "name": "回答問題（2）",
+            "description": "在這個測試的部分中，您將根據提供的資訊回答三個問題。在問題開始之前，您將有45秒的時間閱讀信息。在每個問題之前，您將有3秒的時間準備。在聽到嗶嗶聲後立即開始回答。您將有15秒的時間回答第7和第8個問題，並且您將有30秒的時間回答第9個問題。",
+            "description_en": "In this part of the test, you will answer three questions based on information provided. You will have 45 seconds to read the information before the question begins. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 7 and 8, and you will have 30 seconds to respond to Question 9.",
+            "icon" : "ic_speaking_part4",
+            "isLock" : true
+        },
+        {
+            "part": 12,
+            "part_index": 5,
+            "kind": "propose a solution",
+            "number_ques": 3,
+            "name": "提出解決方案",
+            "description": "在這個測驗的這一部分，您將面臨一個問題，並被要求提出解決方案。\n您將有45秒的時間準備。然後您將有60秒的時間發言。\n在您的回應中，請確保\n- 顯示您認識到這個問題，並\n- 提議解決這個問題的方法。",
+            "description_en": "In this part of the test, you will be presented with a problem and asked to propose a solution.\nYou will have 45 seconds to prepare. Then you will have 60 seconds to speak.\nIn your response, be sure to\n- Show that you recognize the problem, and\n- Propose a way of dealing with the problem.",
+            "icon" : "ic_speaking_part5",
+            "isLock" : true
+        },
+        {
+            "part": 13,
+            "part_index": 6,
+            "kind": "express an opinion",
+            "number_ques": 3,
+            "name": "表達觀點",
+            "description": "在這個測試的部分中，您將對特定主題表達您的觀點。請確保在允許的時間內盡量多地表達。您將有15秒的時間準備。然後，您將有60秒的時間發言。",
+            "description_en": "In this part of the test, you will give your opinion about a specific topic. Be sure to say as much as you can in the time allowed. You will have 15 seconds to prepare. Then you will have 60 seconds to speak.",
+            "icon" : "ic_speaking_part6",
+            "isLock" : true
+        }
+    ],
+    "Writing": [
+        {
+            "part": 14,
+            "part_index": 1,
+            "kind": "write a sentence",
+            "number_ques": 5,
+            "name": "寫一句話",
+            "description": "- 每張圖片都會給您兩個您需要在句子中使用的詞語或片語。\n- 您可以更改單詞的形式，並以任何順序使用這些詞語。",
+            "description_en": "- With each picture, you’ll be given two words or phrases that you need to use in a sentence.\n- You can change the forms of the words and use the words in any order.",
+            "icon" : "ic_writing_part1",
+            "isLock" : false
+        },
+        {
+            "part": 15,
+            "part_index": 2,
+            "kind": "respond a request",
+            "number_ques": 3,
+            "name": "回應請求",
+            "description": "- 展示您的電子郵件回覆能力。\n- 每封電子郵件閱讀和回答需要10分鐘。",
+            "description_en": "- Show how well you can write email responses.\n- 10 minutes to read and answer each email.",
+            "icon" : "ic_writing_part2",
+            "isLock" : true
+        },
+        {
+            "part": 16,
+            "part_index": 3,
+            "kind": "write an opinion essay",
+            "number_ques": 3,
+            "name": "寫一篇意見文章",
+            "description": "- 回答一個要求陳述、解釋和支持您對某個問題的意見的問題時，寫一篇短文。\n- 通常，一個有效的短文將包含至少300個字。",
+            "description_en": "- Write an essay in response to a question that asks you to state, explain and support your opinion on an issue.\n- Typically, an effective essay will contain a minimum of 300 words.",
+            "icon" : "ic_writing_part3",
+            "isLock" : true
+        }
+    ]
+}

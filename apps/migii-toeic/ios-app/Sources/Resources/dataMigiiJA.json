@@ -1,0 +1,186 @@
+{
+    "Listening": [
+        {
+            "part": 1,
+            "part_index": 1,
+            "kind": "picture description",
+            "number_ques": 10,
+            "name": "写真",
+            "description": "質問ごとに、写真が表示され、4つの短いステートメントが聞こえます。 声明は一度だけ話されます。 それらはテストブックに印刷されないので、話者の言うことを理解するために注意深く耳を傾ける必要があります。 4つのステートメントを聞いたら、写真を見て、写真に表示されているものを最もよく表すステートメントを選択します。 ベストアンサーA、B、CまたはDを選択してください",
+            "description_en": "For each question, you will see a picture and you will hear four short statements. The statements will be spoken just one time. They will not be printed in your test book so you must listen carefully to understand what the speaker says. When you hear the four statements, look at the picture and choose the statement that best describes what you see in the picture. Choose the best answer A, B, C or D",
+            "icon" : "ic_part_1",
+            "isLock" : false
+        },
+        {
+            "part": 2,
+            "part_index": 2,
+            "kind": "question - response",
+            "number_ques": 10,
+            "name": "質問-回答",
+            "description": "テストのこの部分では、英語で話された質問またはステートメントが聞こえ、続いて英語で話された3つの応答が聞こえます。 質問または声明と回答は一度だけ話されます。 テストブックには印刷されないので、注意深く聞く必要があります。 各質問またはステートメントに対する最良の回答を選択する必要があります。",
+            "description_en": "In this part of the test, you will hear a question or statement spoken in English, followed by three responses, also spoken in English. The question or statement and the responses will be spoken just one time. They will not be printed in your test book, so you must listen carefully. You are to choose the best response to each question or statement. ",
+            "icon" : "ic_part_2",
+            "isLock" : false
+        },
+        {
+            "part": 3,
+            "part_index": 3,
+            "kind": "short conversations",
+            "number_ques": 5,
+            "name": "会話",
+            "description": "二人の間の会話が聞こえます。 各会話で話者が言うことについて、3つの質問に答えるよう求められます。 各質問に対する最良の回答を選択し、解答用紙に（A）、（B）、（C）、または（D）の文字をマークしてください。 会話はテストブックに印刷されず、1回だけ話されます。",
+            "description_en": "You will hear some conversations between two people. You will be asked to answer three questions about what the speakers say in each conversation. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The conversations will not be printed in your test book and will be spoken only one time.",
+            "icon" : "ic_part_3",
+            "isLock" : true
+        },
+        {
+            "part": 4,
+            "part_index": 4,
+            "kind": "short talks",
+            "number_ques": 5,
+            "name": "ショートトーク",
+            "description": "あなたは一人のスピーカーによって与えられたいくつかの話を聞くでしょう。 各講演で話者が何を言っているかについて、3つの質問に答えるよう求められます。 各質問に対する最良の回答を選択し、解答用紙に（A）、（B）、（C）、または（D）の文字をマークしてください。 講演はテストブックに印刷されず、1回だけ話されます。",
+            "description_en": "You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The talks will not be printed in your test book and will be spoken only one time.",
+            "icon" : "ic_part_4",
+            "isLock" : true
+        }
+    ],
+    "Reading": [
+        {
+            "part": 5,
+            "part_index": 5,
+            "kind": "incomplete sentences",
+            "number_ques": 5,
+            "name": "不完全な文",
+            "description": "以下の各文に単語またはpharseがありません。 各文の下に4つの回答の選択肢があります。 文章を完成させるための最良の答えを選択してください。 次に、解答用紙に（A）、（B）、（C）、または（D）の文字をマークします。",
+            "description_en": "A word or pharse is missing in each of the sentences below. Four answer choices are given below each sentence. Select the best answer to complete the sentence. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_5",
+            "isLock" : true
+        },
+        {
+            "part": 6,
+            "part_index": 6,
+            "kind": "text completion",
+            "number_ques": 5,
+            "name": "テキストの完成",
+            "description": "次のテキストを読んでください。 一部の文に単語またはpharseがありません。 それぞれの文の下に4つの答えの選択肢があります。 テキストを完成させるための最良の答えを選択してください。 次に、解答用紙に（A）、（B）、（C）、または（D）の文字をマークします。",
+            "description_en": "Read the texts that follow. A word or pharse is missing in some of the sentences. Four answer choices are given below each of the sentences. Select the best answer to complete the text. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_6",
+            "isLock" : true
+        },
+        {
+            "part": 7,
+            "part_index": 7,
+            "kind": "reading comprehension",
+            "number_ques": 5,
+            "name": "読解",
+            "description": "このパートでは、雑誌や新聞の記事、手紙、広告など、さまざまなテキストを読みます。 各テキストの後にいくつかの質問が続きます。 各質問のベストアンサーを選択し、解答用紙に（A）、（B）、（C）、または（D）の文字をマークします。",
+            "description_en": "In this part you will read a selection of texts, such as magazine and newspaper articles, letters, and advertisements. Each text is followed by several questions. Select the best answer for each question and mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_7",
+            "isLock" : true
+        }
+    ],
+    "Speaking": [
+        {
+            "part": 8,
+            "part_index": 1,
+            "kind": "read a text aloud",
+            "number_ques": 5,
+            "name": "テキストを声に出して読む",
+            "description": "このテストのこの部分では、画面上のテキストを読み上げます。準備には45秒、その後、テキストを声に出して読むために45秒があります。",
+            "description_en": "In this part of the test, you will read the text on the screen. You will have 45 seconds to prepare. Then you will have 45 seconds to read the text aloud.",
+            "icon" : "ic_speaking_part1",
+            "isLock" : false
+        },
+        {
+            "part": 9,
+            "part_index": 2,
+            "kind": "describe a picture",
+            "number_ques": 5,
+            "name": "絵を説明する",
+            "description": "このテストのこの部分では、画面上の絵をできるだけ詳細に説明します。回答の準備には45秒、その後、絵について話すために45秒があります。",
+            "description_en": "In this part of the test, you will describe a picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response. Then you will have 45 seconds to speak about the picture.",
+            "icon" : "ic_speaking_part2",
+            "isLock" : true
+        },
+        {
+            "part": 10,
+            "part_index": 3,
+            "kind": "respond to questions (1)",
+            "number_ques": 3,
+            "name": "質問に答える（1）",
+            "description": "このテストのこの部分では、3つの質問に答えます。各質問の前に3秒間の準備時間があります。ビープ音を聞いた直後にすぐに回答を始めてください。質問4と5に回答するためには15秒、質問6に回答するためには30秒が与えられます。",
+            "description_en": "In this part of the test, you will answer three questions. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 4 and 5, and you will have 30 seconds to respond to Question 6.",
+            "icon" : "ic_speaking_part3",
+            "isLock" : true
+        },
+        {
+            "part": 11,
+            "part_index": 4,
+            "kind": "respond to questions (2)",
+            "number_ques": 3,
+            "name": "質問に答える（2）",
+            "description": "このテストのこの部分では、提供された情報に基づいて3つの質問に答えます。質問が始まる前に情報を読むために45秒があります。各質問の前に3秒間の準備時間があります。ビープ音を聞いた直後にすぐに回答を始めてください。質問7と8に回答するためには15秒、質問9に回答するためには30秒が与えられます。",
+            "description_en": "In this part of the test, you will answer three questions based on information provided. You will have 45 seconds to read the information before the question begins. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 7 and 8, and you will have 30 seconds to respond to Question 9.",
+            "icon" : "ic_speaking_part4",
+            "isLock" : true
+        },
+        {
+            "part": 12,
+            "part_index": 5,
+            "kind": "propose a solution",
+            "number_ques": 3,
+            "name": "解決策を提案する",
+            "description": "このテストのこの部分では、問題が提示され、それに対する解決策を提案するように求められます。\n準備する時間は45秒あります。その後、60秒で話す時間があります。\nあなたの回答では、\n- 問題を認識することを示し、\n- 問題に対処する方法を提案してください。",
+            "description_en": "In this part of the test, you will be presented with a problem and asked to propose a solution.\nYou will have 45 seconds to prepare. Then you will have 60 seconds to speak.\nIn your response, be sure to\n- Show that you recognize the problem, and\n- Propose a way of dealing with the problem.",
+            "icon" : "ic_speaking_part5",
+            "isLock" : true
+        },
+        {
+            "part": 13,
+            "part_index": 6,
+            "kind": "express an opinion",
+            "number_ques": 3,
+            "name": "意見を表明する",
+            "description": "このテストのこの部分では、特定のトピックについての意見を述べます。与えられた時間内にできるだけ多く言ってください。準備には15秒、その後、60秒間話す時間があります。",
+            "description_en": "In this part of the test, you will give your opinion about a specific topic. Be sure to say as much as you can in the time allowed. You will have 15 seconds to prepare. Then you will have 60 seconds to speak.",
+            "icon" : "ic_speaking_part6",
+            "isLock" : true
+        }
+    ],
+    "Writing": [
+        {
+            "part": 14,
+            "part_index": 1,
+            "kind": "write a sentence",
+            "number_ques": 5,
+            "name": "文を書く",
+            "description": "- 各画像ごとに、文で使用する必要がある2つの単語やフレーズが与えられます。\n- 単語の形を変えたり、単語を任意の順序で使うことができます。",
+            "description_en": "- With each picture, you’ll be given two words or phrases that you need to use in a sentence.\n- You can change the forms of the words and use the words in any order.",
+            "icon" : "ic_writing_part1",
+            "isLock" : false
+        },
+        {
+            "part": 15,
+            "part_index": 2,
+            "kind": "respond a request",
+            "number_ques": 3,
+            "name": "要求に応える",
+            "description": "- メールの返信をどれだけうまく書けるかを示してください。\n- 各メールを読んで回答するのに10分かかります。",
+            "description_en": "- Show how well you can write email responses.\n- 10 minutes to read and answer each email.",
+            "icon" : "ic_writing_part2",
+            "isLock" : true
+        },
+        {
+            "part": 16,
+            "part_index": 3,
+            "kind": "write an opinion essay",
+            "number_ques": 3,
+            "name": "意見エッセイを書く",
+            "description": "- 特定の問題についての意見を述べ、説明し、支持するよう求める質問に対するエッセイを書いてください。\n- 通常、効果的なエッセイには少なくとも300語が含まれます。",
+            "description_en": "- Write an essay in response to a question that asks you to state, explain and support your opinion on an issue.\n- Typically, an effective essay will contain a minimum of 300 words.",
+            "icon" : "ic_writing_part3",
+            "isLock" : true
+        }
+    ]
+}

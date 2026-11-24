@@ -1,0 +1,892 @@
+{
+  "Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib": [
+    {
+      "id": "obj#0",
+      "class": "NSObject",
+      "props": {
+        "UINibTopLevelObjectsKey": "obj#1",
+        "UINibObjectsKey": "obj#31",
+        "UINibConnectionsKey": "obj#34",
+        "UINibVisibleWindowsKey": "obj#37",
+        "UINibAccessibilityConfigurationsKey": "obj#37",
+        "UINibTraitStorageListsKey": "obj#37",
+        "UINibKeyValuePairsKey": "obj#37"
+      }
+    },
+    {
+      "id": "obj#1",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#2",
+          "obj#4",
+          "obj#6"
+        ]
+      }
+    },
+    {
+      "id": "obj#2",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#3"
+      }
+    },
+    {
+      "id": "obj#3",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "IBFilesOwner"
+      }
+    },
+    {
+      "id": "obj#4",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#5"
+      }
+    },
+    {
+      "id": "obj#5",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "IBFirstResponder"
+      }
+    },
+    {
+      "id": "obj#6",
+      "class": "UIView",
+      "props": {
+        "UIBounds": "07000000000000000000000000000000000000000000e079400000000000008c40",
+        "UICenter": "070000000000e069400000000000007c40",
+        "UISubviews": "obj#7",
+        "UIBackgroundColor": "obj#12",
+        "UIDeepDrawRect": true,
+        "UIOpaque": true,
+        "UIAutoresizeSubviews": true,
+        "UIAutoresizingMask": 18,
+        "UIViewAutolayoutConstraints": "obj#14",
+        "UIViewLayoutGuides": "obj#30",
+        "UIViewSemanticContentAttribute": 0,
+        "UIViewLargeContentStoredProperties": null
+      }
+    },
+    {
+      "id": "obj#7",
+      "class": "NSMutableArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": "obj#8"
+      }
+    },
+    {
+      "id": "obj#8",
+      "class": "UIImageView",
+      "props": {
+        "UIBounds": "07000000000000000000000000000000000000000000e079400000000000008c40",
+        "UICenter": "070000000000e069400000000000007c40",
+        "UIDeepDrawRect": true,
+        "UIOpaque": true,
+        "UIUserInteractionDisabled": true,
+        "UIAutoresizeSubviews": true,
+        "UIAutoresizingMask": 36,
+        "UIClipsToBounds": true,
+        "UIViewDoesNotTranslateAutoresizingMaskIntoConstraints": true,
+        "UIViewContentHuggingPriority": "obj#9",
+        "UIViewSemanticContentAttribute": 0,
+        "UIViewLargeContentStoredProperties": null,
+        "UIImage": "obj#10"
+      }
+    },
+    {
+      "id": "obj#9",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "{251, 251}"
+      }
+    },
+    {
+      "id": "obj#10",
+      "class": "UIImageNibPlaceholder",
+      "props": {
+        "UIImageWidth": 1.0,
+        "UIImageHeight": 1.0,
+        "UIResourceName": "obj#11",
+        "UISystemSymbolResourceName": null,
+        "UISymbolImageConfiguration": null,
+        "UIResourceCatalogName": null
+      }
+    },
+    {
+      "id": "obj#11",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "bg_splash"
+      }
+    },
+    {
+      "id": "obj#12",
+      "class": "UIColor",
+      "props": {
+        "UISystemColorName": "obj#13",
+        "UIColorComponentCount": 2,
+        "UIWhite": 0.0,
+        "UIAlpha": 0.0,
+        "NSWhite": "0 0",
+        "NSColorSpace": 4
+      }
+    },
+    {
+      "id": "obj#13",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "clearColor"
+      }
+    },
+    {
+      "id": "obj#14",
+      "class": "NSMutableArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#15",
+          "obj#16",
+          "obj#17",
+          "obj#29"
+        ]
+      }
+    },
+    {
+      "id": "obj#15",
+      "class": "NSLayoutConstraint",
+      "props": {
+        "NSFirstItem": "obj#6",
+        "NSFirstAttributeV2": 4,
+        "NSFirstAttribute": 4,
+        "NSSecondItem": "obj#8",
+        "NSSecondAttributeV2": 4,
+        "NSSecondAttribute": 4,
+        "NSShouldBeArchived": true
+      }
+    },
+    {
+      "id": "obj#16",
+      "class": "NSLayoutConstraint",
+      "props": {
+        "NSFirstItem": "obj#8",
+        "NSFirstAttributeV2": 3,
+        "NSFirstAttribute": 3,
+        "NSSecondItem": "obj#6",
+        "NSSecondAttributeV2": 3,
+        "NSSecondAttribute": 3,
+        "NSShouldBeArchived": true
+      }
+    },
+    {
+      "id": "obj#17",
+      "class": "NSLayoutConstraint",
+      "props": {
+        "NSFirstItem": "obj#8",
+        "NSFirstAttributeV2": 6,
+        "NSFirstAttribute": 6,
+        "NSSecondItem": "obj#18",
+        "NSSecondAttributeV2": 6,
+        "NSSecondAttribute": 6,
+        "NSShouldBeArchived": true
+      }
+    },
+    {
+      "id": "obj#18",
+      "class": "UILayoutGuide",
+      "props": {
+        "UILayoutGuideOwningView": "obj#6",
+        "UILayoutGuideIdentifier": "obj#19",
+        "UILayoutGuideOwningViewIsLocked": true,
+        "UILayoutGuideShouldBeArchived": true,
+        "UILayoutGuideAllowsNegativeDimensions": true,
+        "UILayoutGuideSystemConstraints": "obj#20"
+      }
+    },
+    {
+      "id": "obj#19",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIViewSafeAreaLayoutGuide"
+      }
+    },
+    {
+      "id": "obj#20",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#21",
+          "obj#23",
+          "obj#25",
+          "obj#27"
+        ]
+      }
+    },
+    {
+      "id": "obj#21",
+      "class": "NSLayoutConstraint",
+      "props": {
+        "NSFirstItem": "obj#18",
+        "NSFirstAttributeV2": 3,
+        "NSFirstAttribute": 3,
+        "NSSecondItem": "obj#6",
+        "NSSecondAttributeV2": 3,
+        "NSSecondAttribute": 3,
+        "NSShouldBeArchived": false,
+        "NSLayoutIdentifier": "obj#22"
+      }
+    },
+    {
+      "id": "obj#22",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIViewSafeAreaLayoutGuide-top"
+      }
+    },
+    {
+      "id": "obj#23",
+      "class": "NSLayoutConstraint",
+      "props": {
+        "NSFirstItem": "obj#18",
+        "NSFirstAttributeV2": 1,
+        "NSFirstAttribute": 1,
+        "NSSecondItem": "obj#6",
+        "NSSecondAttributeV2": 1,
+        "NSSecondAttribute": 1,
+        "NSShouldBeArchived": false,
+        "NSLayoutIdentifier": "obj#24"
+      }
+    },
+    {
+      "id": "obj#24",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIViewSafeAreaLayoutGuide-left"
+      }
+    },
+    {
+      "id": "obj#25",
+      "class": "NSLayoutConstraint",
+      "props": {
+        "NSFirstItem": "obj#6",
+        "NSFirstAttributeV2": 4,
+        "NSFirstAttribute": 4,
+        "NSSecondItem": "obj#18",
+        "NSSecondAttributeV2": 4,
+        "NSSecondAttribute": 4,
+        "NSShouldBeArchived": false,
+        "NSLayoutIdentifier": "obj#26"
+      }
+    },
+    {
+      "id": "obj#26",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIViewSafeAreaLayoutGuide-bottom"
+      }
+    },
+    {
+      "id": "obj#27",
+      "class": "NSLayoutConstraint",
+      "props": {
+        "NSFirstItem": "obj#6",
+        "NSFirstAttributeV2": 2,
+        "NSFirstAttribute": 2,
+        "NSSecondItem": "obj#18",
+        "NSSecondAttributeV2": 2,
+        "NSSecondAttribute": 2,
+        "NSShouldBeArchived": false,
+        "NSLayoutIdentifier": "obj#28"
+      }
+    },
+    {
+      "id": "obj#28",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIViewSafeAreaLayoutGuide-right"
+      }
+    },
+    {
+      "id": "obj#29",
+      "class": "NSLayoutConstraint",
+      "props": {
+        "NSFirstItem": "obj#8",
+        "NSFirstAttributeV2": 5,
+        "NSFirstAttribute": 5,
+        "NSSecondItem": "obj#18",
+        "NSSecondAttributeV2": 5,
+        "NSSecondAttribute": 5,
+        "NSShouldBeArchived": true
+      }
+    },
+    {
+      "id": "obj#30",
+      "class": "NSMutableArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": "obj#18"
+      }
+    },
+    {
+      "id": "obj#31",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#2",
+          "obj#4",
+          "obj#6",
+          "obj#32",
+          "obj#15",
+          "obj#16",
+          "obj#17",
+          "obj#29",
+          "obj#8"
+        ]
+      }
+    },
+    {
+      "id": "obj#32",
+      "class": "UILayoutGuide",
+      "props": {
+        "UILayoutGuideOwningView": null,
+        "UILayoutGuideIdentifier": "obj#33",
+        "UILayoutGuideOwningViewIsLocked": false,
+        "UILayoutGuideShouldBeArchived": false,
+        "UILayoutGuideAllowsNegativeDimensions": false
+      }
+    },
+    {
+      "id": "obj#33",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": ""
+      }
+    },
+    {
+      "id": "obj#34",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": "obj#35"
+      }
+    },
+    {
+      "id": "obj#35",
+      "class": "UIRuntimeOutletConnection",
+      "props": {
+        "UILabel": "obj#36",
+        "UISource": "obj#2",
+        "UIDestination": "obj#6"
+      }
+    },
+    {
+      "id": "obj#36",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "view"
+      }
+    },
+    {
+      "id": "obj#37",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true
+      }
+    }
+  ],
+  "Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib": [
+    {
+      "id": "obj#0",
+      "class": "NSObject",
+      "props": {
+        "UINibTopLevelObjectsKey": "obj#1",
+        "UINibObjectsKey": "obj#12",
+        "UINibConnectionsKey": "obj#13",
+        "UINibVisibleWindowsKey": "obj#18",
+        "UINibAccessibilityConfigurationsKey": "obj#18",
+        "UINibTraitStorageListsKey": "obj#18",
+        "UINibKeyValuePairsKey": "obj#18",
+        "IBUINibLNEVersionKey": 1
+      }
+    },
+    {
+      "id": "obj#1",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#2",
+          "obj#4",
+          "obj#6",
+          "obj#8"
+        ]
+      }
+    },
+    {
+      "id": "obj#2",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#3"
+      }
+    },
+    {
+      "id": "obj#3",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "IBFilesOwner"
+      }
+    },
+    {
+      "id": "obj#4",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#5"
+      }
+    },
+    {
+      "id": "obj#5",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "IBFirstResponder"
+      }
+    },
+    {
+      "id": "obj#6",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#7"
+      }
+    },
+    {
+      "id": "obj#7",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIStoryboardPlaceholder"
+      }
+    },
+    {
+      "id": "obj#8",
+      "class": "UIClassSwapper",
+      "props": {
+        "UIExternalObjectsTableForViewLoading": "obj#9",
+        "UINibName": "obj#10",
+        "UIClassName": "obj#11",
+        "UIOriginalClassName": "obj#11"
+      }
+    },
+    {
+      "id": "obj#9",
+      "class": "NSDictionary",
+      "props": {
+        "NSInlinedValue": true
+      }
+    },
+    {
+      "id": "obj#10",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "01J-lp-oVM-view-Ze5-6b-2t3"
+      }
+    },
+    {
+      "id": "obj#11",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIViewController"
+      }
+    },
+    {
+      "id": "obj#12",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#2",
+          "obj#4",
+          "obj#6",
+          "obj#8"
+        ]
+      }
+    },
+    {
+      "id": "obj#13",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#14",
+          "obj#16"
+        ]
+      }
+    },
+    {
+      "id": "obj#14",
+      "class": "UIRuntimeOutletConnection",
+      "props": {
+        "UILabel": "obj#15",
+        "UISource": "obj#8",
+        "UIDestination": "obj#6"
+      }
+    },
+    {
+      "id": "obj#15",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "storyboard"
+      }
+    },
+    {
+      "id": "obj#16",
+      "class": "UIRuntimeOutletConnection",
+      "props": {
+        "UILabel": "obj#17",
+        "UISource": "obj#2",
+        "UIDestination": "obj#8"
+      }
+    },
+    {
+      "id": "obj#17",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "sceneViewController"
+      }
+    },
+    {
+      "id": "obj#18",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true
+      }
+    }
+  ],
+  "Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib": [
+    {
+      "id": "obj#0",
+      "class": "NSObject",
+      "props": {
+        "UINibTopLevelObjectsKey": "obj#1",
+        "UINibObjectsKey": "obj#9",
+        "UINibConnectionsKey": "obj#12",
+        "UINibVisibleWindowsKey": "obj#15",
+        "UINibAccessibilityConfigurationsKey": "obj#15",
+        "UINibTraitStorageListsKey": "obj#15",
+        "UINibKeyValuePairsKey": "obj#15",
+        "IBUINibLNEVersionKey": 1
+      }
+    },
+    {
+      "id": "obj#1",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#2",
+          "obj#4",
+          "obj#6"
+        ]
+      }
+    },
+    {
+      "id": "obj#2",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#3"
+      }
+    },
+    {
+      "id": "obj#3",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "IBFilesOwner"
+      }
+    },
+    {
+      "id": "obj#4",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#5"
+      }
+    },
+    {
+      "id": "obj#5",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "IBFirstResponder"
+      }
+    },
+    {
+      "id": "obj#6",
+      "class": "UIView",
+      "props": {
+        "UIBounds": "07000000000000000000000000000000000000000000e079400000000000008c40",
+        "UICenter": "070000000000e069400000000000007c40",
+        "UIBackgroundColor": "obj#7",
+        "UIDeepDrawRect": true,
+        "UIOpaque": true,
+        "UIAutoresizeSubviews": true,
+        "UIAutoresizingMask": 18,
+        "UIViewSemanticContentAttribute": 0,
+        "UIViewLargeContentStoredProperties": null
+      }
+    },
+    {
+      "id": "obj#7",
+      "class": "UIColor",
+      "props": {
+        "UISystemColorName": "obj#8",
+        "UIColorComponentCount": 2,
+        "UIWhite": 1.0,
+        "UIAlpha": 1.0,
+        "NSWhite": "1",
+        "NSColorSpace": 4
+      }
+    },
+    {
+      "id": "obj#8",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "systemBackgroundColor"
+      }
+    },
+    {
+      "id": "obj#9",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#2",
+          "obj#4",
+          "obj#6",
+          "obj#10"
+        ]
+      }
+    },
+    {
+      "id": "obj#10",
+      "class": "UILayoutGuide",
+      "props": {
+        "UILayoutGuideOwningView": null,
+        "UILayoutGuideIdentifier": "obj#11",
+        "UILayoutGuideOwningViewIsLocked": false,
+        "UILayoutGuideShouldBeArchived": false,
+        "UILayoutGuideAllowsNegativeDimensions": false
+      }
+    },
+    {
+      "id": "obj#11",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": ""
+      }
+    },
+    {
+      "id": "obj#12",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": "obj#13"
+      }
+    },
+    {
+      "id": "obj#13",
+      "class": "UIRuntimeOutletConnection",
+      "props": {
+        "UILabel": "obj#14",
+        "UISource": "obj#2",
+        "UIDestination": "obj#6"
+      }
+    },
+    {
+      "id": "obj#14",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "view"
+      }
+    },
+    {
+      "id": "obj#15",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true
+      }
+    }
+  ],
+  "Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib": [
+    {
+      "id": "obj#0",
+      "class": "NSObject",
+      "props": {
+        "UINibTopLevelObjectsKey": "obj#1",
+        "UINibObjectsKey": "obj#13",
+        "UINibConnectionsKey": "obj#14",
+        "UINibVisibleWindowsKey": "obj#19",
+        "UINibAccessibilityConfigurationsKey": "obj#19",
+        "UINibTraitStorageListsKey": "obj#19",
+        "UINibKeyValuePairsKey": "obj#19",
+        "IBUINibLNEVersionKey": 1
+      }
+    },
+    {
+      "id": "obj#1",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#2",
+          "obj#4",
+          "obj#6",
+          "obj#8"
+        ]
+      }
+    },
+    {
+      "id": "obj#2",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#3"
+      }
+    },
+    {
+      "id": "obj#3",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "IBFilesOwner"
+      }
+    },
+    {
+      "id": "obj#4",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#5"
+      }
+    },
+    {
+      "id": "obj#5",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "IBFirstResponder"
+      }
+    },
+    {
+      "id": "obj#6",
+      "class": "UIProxyObject",
+      "props": {
+        "UIProxiedObjectIdentifier": "obj#7"
+      }
+    },
+    {
+      "id": "obj#7",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIStoryboardPlaceholder"
+      }
+    },
+    {
+      "id": "obj#8",
+      "class": "UIClassSwapper",
+      "props": {
+        "UIExternalObjectsTableForViewLoading": "obj#9",
+        "UINibName": "obj#10",
+        "UIClassName": "obj#11",
+        "UIOriginalClassName": "obj#12"
+      }
+    },
+    {
+      "id": "obj#9",
+      "class": "NSDictionary",
+      "props": {
+        "NSInlinedValue": true
+      }
+    },
+    {
+      "id": "obj#10",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "BYZ-38-t0r-view-8bC-Xf-vdC"
+      }
+    },
+    {
+      "id": "obj#11",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "_TtC12Migii_TOEIC_14ViewController"
+      }
+    },
+    {
+      "id": "obj#12",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "UIViewController"
+      }
+    },
+    {
+      "id": "obj#13",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#2",
+          "obj#4",
+          "obj#6",
+          "obj#8"
+        ]
+      }
+    },
+    {
+      "id": "obj#14",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true,
+        "UINibEncoderEmptyKey": [
+          "obj#15",
+          "obj#17"
+        ]
+      }
+    },
+    {
+      "id": "obj#15",
+      "class": "UIRuntimeOutletConnection",
+      "props": {
+        "UILabel": "obj#16",
+        "UISource": "obj#8",
+        "UIDestination": "obj#6"
+      }
+    },
+    {
+      "id": "obj#16",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "storyboard"
+      }
+    },
+    {
+      "id": "obj#17",
+      "class": "UIRuntimeOutletConnection",
+      "props": {
+        "UILabel": "obj#18",
+        "UISource": "obj#2",
+        "UIDestination": "obj#8"
+      }
+    },
+    {
+      "id": "obj#18",
+      "class": "NSString",
+      "props": {
+        "NS.bytes": "sceneViewController"
+      }
+    },
+    {
+      "id": "obj#19",
+      "class": "NSArray",
+      "props": {
+        "NSInlinedValue": true
+      }
+    }
+  ]
+}

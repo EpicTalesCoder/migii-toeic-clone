@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "migii-toeic",
+    "displayName": "Migii TOEIC",
+    "targetName": "MigiiToeic",
+    "bundleIdentifier": "com.rebuild.migiitoeic",
+    "originalBundleIdentifier": "com.eup.migiitoeic",
+    "originalVersion": "1.4.1",
+    "originalMinimumOSVersion": "10.0",
+    "targetDevice": "iPhone XS Max (iPhone11,6 / 414x896 @3x / arm64)",
+    "targetOS": "iOS 16.1.1",
+    "deploymentTarget": "16.0",
+    "signingMode": "unsigned-adhoc-trollstore-sideloadly",
+    "projectSpec": "apps/migii-toeic/ios-app/project.yml",
+    "status": "ready-for-ci"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "Err": null,
+  "Event": {
+    "result_score_total": 10,
+    "result_score_parts": [
+      {
+        "name": "Listening",
+        "score": 5
+      },
+      {
+        "name": "Reading",
+        "score": 5
+      }
+    ],
+    "pass_score": null,
+    "score": 990,
+    "rank_index": 0,
+    "correct_count_question": 0,
+    "count_question": 200
+  }
+}

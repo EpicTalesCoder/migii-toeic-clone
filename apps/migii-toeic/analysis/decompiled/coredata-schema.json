@@ -1,0 +1,167 @@
+{
+  "_class": "NSManagedObjectModel",
+  "NSEntities": {
+    "MigiiDB": {
+      "_class": "NSEntityDescription",
+      "NSEntityName": "MigiiDB",
+      "NSClassNameForEntity": "Migii_TOEIC_.MigiiDB",
+      "NSUserInfo": {},
+      "NSSubentities": {},
+      "NSVersionHashModifier": "$null",
+      "NSProperties": {
+        "key": {
+          "_class": "NSAttributeDescription",
+          "_P": "243",
+          "NSAttributeValueClassName": "UID(14)",
+          "NSAttributeType": "700",
+          "NSIsOptional": "True",
+          "NSEntity": "UID(6)",
+          "NSDefaultValue": "UID(0)",
+          "NSPropertyName": "UID(11)",
+          "NSValueTransformerName": "UID(0)",
+          "NSFlagsKey": "0",
+          "NSRenamingIdentifier": "UID(11)"
+        },
+        "value": {
+          "_class": "NSAttributeDescription",
+          "_P": "243",
+          "NSAttributeValueClassName": "UID(14)",
+          "NSAttributeType": "700",
+          "NSIsOptional": "True",
+          "NSEntity": "UID(6)",
+          "NSDefaultValue": "UID(0)",
+          "NSPropertyName": "UID(12)",
+          "NSValueTransformerName": "UID(0)",
+          "NSFlagsKey": "0",
+          "NSRenamingIdentifier": "UID(12)"
+        }
+      },
+      "NSRenamingIdentifier": "MigiiDB",
+      "NSManagedObjectModel": {
+        "_class": "NSManagedObjectModel",
+        "NSEntities": {
+          "UID(3)": "UID(6)",
+          "UID(4)": "UID(20)",
+          "UID(5)": "UID(26)"
+        },
+        "CDMCompilerToolVersion": 23788.0,
+        "CDMCompilerXcodeVersion": 160300,
+        "NSFetchRequestTemplates": "$null",
+        "NSVersionIdentifiers": [
+          "UID(33)"
+        ]
+      },
+      "NSSuperentity": "$null"
+    },
+    "WordDB": {
+      "_class": "NSEntityDescription",
+      "NSEntityName": "WordDB",
+      "NSClassNameForEntity": "Migii_TOEIC_.WordDB",
+      "NSUserInfo": {},
+      "NSSubentities": {},
+      "NSVersionHashModifier": "$null",
+      "NSProperties": {
+        "key": {
+          "_class": "NSAttributeDescription",
+          "_P": "243",
+          "NSAttributeValueClassName": "UID(14)",
+          "NSAttributeType": "700",
+          "NSIsOptional": "True",
+          "NSEntity": "UID(20)",
+          "NSDefaultValue": "UID(0)",
+          "NSPropertyName": "UID(11)",
+          "NSValueTransformerName": "UID(0)",
+          "NSFlagsKey": "0",
+          "NSRenamingIdentifier": "UID(11)"
+        },
+        "value": {
+          "_class": "NSAttributeDescription",
+          "_P": "243",
+          "NSAttributeValueClassName": "UID(14)",
+          "NSAttributeType": "700",
+          "NSIsOptional": "True",
+          "NSEntity": "UID(20)",
+          "NSDefaultValue": "UID(0)",
+          "NSPropertyName": "UID(12)",
+          "NSValueTransformerName": "UID(0)",
+          "NSFlagsKey": "0",
+          "NSRenamingIdentifier": "UID(12)"
+        }
+      },
+      "NSRenamingIdentifier": "WordDB",
+      "NSManagedObjectModel": {
+        "_class": "NSManagedObjectModel",
+        "NSEntities": {
+          "UID(3)": "UID(6)",
+          "UID(4)": "UID(20)",
+          "UID(5)": "UID(26)"
+        },
+        "CDMCompilerToolVersion": 23788.0,
+        "CDMCompilerXcodeVersion": 160300,
+        "NSFetchRequestTemplates": "$null",
+        "NSVersionIdentifiers": [
+          "UID(33)"
+        ]
+      },
+      "NSSuperentity": "$null"
+    },
+    "HistoryDB": {
+      "_class": "NSEntityDescription",
+      "NSEntityName": "HistoryDB",
+      "NSClassNameForEntity": "Migii_TOEIC_.HistoryDB",
+      "NSUserInfo": {},
+      "NSSubentities": {},
+      "NSVersionHashModifier": "$null",
+      "NSProperties": {
+        "key": {
+          "_class": "NSAttributeDescription",
+          "_P": "243",
+          "NSAttributeValueClassName": "UID(14)",
+          "NSAttributeType": "700",
+          "NSIsOptional": "True",
+          "NSEntity": "UID(26)",
+          "NSDefaultValue": "UID(0)",
+          "NSPropertyName": "UID(11)",
+          "NSValueTransformerName": "UID(0)",
+          "NSFlagsKey": "0",
+          "NSRenamingIdentifier": "UID(11)"
+        },
+        "value": {
+          "_class": "NSAttributeDescription",
+          "_P": "243",
+          "NSAttributeValueClassName": "UID(14)",
+          "NSAttributeType": "700",
+          "NSIsOptional": "True",
+          "NSEntity": "UID(26)",
+          "NSDefaultValue": "UID(0)",
+          "NSPropertyName": "UID(12)",
+          "NSValueTransformerName": "UID(0)",
+          "NSFlagsKey": "0",
+          "NSRenamingIdentifier": "UID(12)"
+        }
+      },
+      "NSRenamingIdentifier": "HistoryDB",
+      "NSManagedObjectModel": {
+        "_class": "NSManagedObjectModel",
+        "NSEntities": {
+          "UID(3)": "UID(6)",
+          "UID(4)": "UID(20)",
+          "UID(5)": "UID(26)"
+        },
+        "CDMCompilerToolVersion": 23788.0,
+        "CDMCompilerXcodeVersion": 160300,
+        "NSFetchRequestTemplates": "$null",
+        "NSVersionIdentifiers": [
+          "UID(33)"
+        ]
+      },
+      "NSSuperentity": "$null"
+    }
+  },
+  "CDMCompilerToolVersion": 23788.0,
+  "CDMCompilerXcodeVersion": 160300,
+  "NSFetchRequestTemplates": "$null",
+  "NSVersionIdentifiers": [
+    ""
+  ]
+}

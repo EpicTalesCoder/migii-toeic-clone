@@ -1,0 +1,186 @@
+{
+    "Listening": [
+        {
+            "part": 1,
+            "part_index": 1,
+            "kind": "picture description",
+            "number_ques": 10,
+            "name": "Photographs",
+            "description": "For each question, you will see a picture and you will hear four short statements. The statements will be spoken just one time. They will not be printed in your test book so you must listen carefully to understand what the speaker says. When you hear the four statements, look at the picture and choose the statement that best describes what you see in the picture. Choose the best answer A, B, C or D",
+            "description_en": "For each question, you will see a picture and you will hear four short statements. The statements will be spoken just one time. They will not be printed in your test book so you must listen carefully to understand what the speaker says. When you hear the four statements, look at the picture and choose the statement that best describes what you see in the picture. Choose the best answer A, B, C or D",
+            "icon" : "ic_part_1",
+            "isLock" : false
+        },
+        {
+            "part": 2,
+            "part_index": 2,
+            "kind": "question - response",
+            "number_ques": 10,
+            "name": "Question-Response",
+            "description": "In this part of the test, you will hear a question or statement spoken in English, followed by three responses, also spoken in English. The question or statement and the responses will be spoken just one time. They will not be printed in your test book, so you must listen carefully. You are to choose the best response to each question or statement. ",
+            "description_en": "In this part of the test, you will hear a question or statement spoken in English, followed by three responses, also spoken in English. The question or statement and the responses will be spoken just one time. They will not be printed in your test book, so you must listen carefully. You are to choose the best response to each question or statement. ",
+            "icon" : "ic_part_2",
+            "isLock" : false
+        },
+        {
+            "part": 3,
+            "part_index": 3,
+            "kind": "short conversations",
+            "number_ques": 5,
+            "name": "Conversations",
+            "description": "You will hear some conversations between two people. You will be asked to answer three questions about what the speakers say in each conversation. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The conversations will not be printed in your test book and will be spoken only one time.",
+            "description_en": "You will hear some conversations between two people. You will be asked to answer three questions about what the speakers say in each conversation. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The conversations will not be printed in your test book and will be spoken only one time.",
+            "icon" : "ic_part_3",
+            "isLock" : true
+        },
+        {
+            "part": 4,
+            "part_index": 4,
+            "kind": "short talks",
+            "number_ques": 5,
+            "name": "Short Talks",
+            "description": "You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The talks will not be printed in your test book and will be spoken only one time.",
+            "description_en": "You will hear some talks given by a single speaker. You will be asked to answer three questions about what the speaker says in each talk. Select the best response to each question and mark the letter (A), (B), (C) or (D) on your answer sheet. The talks will not be printed in your test book and will be spoken only one time.",
+            "icon" : "ic_part_4",
+            "isLock" : true
+        }
+    ],
+    "Reading": [
+        {
+            "part": 5,
+            "part_index": 5,
+            "kind": "incomplete sentences",
+            "number_ques": 5,
+            "name": "Incomplete Sentences",
+            "description": "A word or pharse is missing in each of the sentences below. Four answer choices are given below each sentence. Select the best answer to complete the sentence. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "description_en": "A word or pharse is missing in each of the sentences below. Four answer choices are given below each sentence. Select the best answer to complete the sentence. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_5",
+            "isLock" : false
+        },
+        {
+            "part": 6,
+            "part_index": 6,
+            "kind": "text completion",
+            "number_ques": 5,
+            "name": "Text Completion",
+            "description": "Read the texts that follow. A word or pharse is missing in some of the sentences. Four answer choices are given below each of the sentences. Select the best answer to complete the text. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "description_en": "Read the texts that follow. A word or pharse is missing in some of the sentences. Four answer choices are given below each of the sentences. Select the best answer to complete the text. Then mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_6",
+            "isLock" : true
+        },
+        {
+            "part": 7,
+            "part_index": 7,
+            "kind": "reading comprehension",
+            "number_ques": 5,
+            "name": "Reading Comprehension",
+            "description": "In this part you will read a selection of texts, such as magazine and newspaper articles, letters, and advertisements. Each text is followed by several questions. Select the best answer for each question and mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "description_en": "In this part you will read a selection of texts, such as magazine and newspaper articles, letters, and advertisements. Each text is followed by several questions. Select the best answer for each question and mark the letter (A), (B), (C) or (D) on your answer sheet.",
+            "icon" : "ic_part_7",
+            "isLock" : true
+        }
+    ],
+    "Speaking": [
+        {
+            "part": 8,
+            "part_index": 1,
+            "kind": "read a text aloud",
+            "number_ques": 5,
+            "name": "Read a text aloud",
+            "description": "In this part of the test, you will read the text on the screen. You will have 45 seconds to prepare. Then you will have 45 seconds to read the text aloud.",
+            "description_en": "In this part of the test, you will read the text on the screen. You will have 45 seconds to prepare. Then you will have 45 seconds to read the text aloud.",
+            "icon" : "ic_speaking_part1",
+            "isLock" : false
+        },
+        {
+            "part": 9,
+            "part_index": 2,
+            "kind": "describe a picture",
+            "number_ques": 5,
+            "name": "Describe a picture",
+            "description": "In this part of the test, you will describe a picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response. Then you will have 45 seconds to speak about the picture.",
+            "description_en": "In this part of the test, you will describe a picture on your screen in as much detail as you can. You will have 45 seconds to prepare your response. Then you will have 45 seconds to speak about the picture.",
+            "icon" : "ic_speaking_part2",
+            "isLock" : true
+        },
+        {
+            "part": 10,
+            "part_index": 3,
+            "kind": "respond to questions (1)",
+            "number_ques": 3,
+            "name": "Respond to questions (1)",
+            "description": "In this part of the test, you will answer three questions. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 4 and 5, and you will have 30 seconds to respond to Question 6.",
+            "description_en": "In this part of the test, you will answer three questions. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 4 and 5, and you will have 30 seconds to respond to Question 6.",
+            "icon" : "ic_speaking_part3",
+            "isLock" : true
+        },
+        {
+            "part": 11,
+            "part_index": 4,
+            "kind": "respond to questions (2)",
+            "number_ques": 3,
+            "name": "Respond to questions (2)",
+            "description": "In this part of the test, you will answer three questions based on information provided. You will have 45 seconds to read the information before the question begins. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 7 and 8, and you will have 30 seconds to respond to Question 9.",
+            "description_en": "In this part of the test, you will answer three questions based on information provided. You will have 45 seconds to read the information before the question begins. You will have 3 seconds to prepare before each question. Begin responding immediately after you hear a beep. You will have 15 seconds to respond to Questions 7 and 8, and you will have 30 seconds to respond to Question 9.",
+            "icon" : "ic_speaking_part4",
+            "isLock" : true
+        },
+        {
+            "part": 12,
+            "part_index": 5,
+            "kind": "propose a solution",
+            "number_ques": 3,
+            "name": "Propose a solution",
+            "description": "In this part of the test, you will be presented with a problem and asked to propose a solution.\nYou will have 45 seconds to prepare. Then you will have 60 seconds to speak.\nIn your response, be sure to\n- Show that you recognize the problem, and\n- Propose a way of dealing with the problem.",
+            "description_en": "In this part of the test, you will be presented with a problem and asked to propose a solution.\nYou will have 45 seconds to prepare. Then you will have 60 seconds to speak.\nIn your response, be sure to\n- Show that you recognize the problem, and\n- Propose a way of dealing with the problem.",
+            "icon" : "ic_speaking_part5",
+            "isLock" : true
+        },
+        {
+            "part": 13,
+            "part_index": 6,
+            "kind": "express an opinion",
+            "number_ques": 3,
+            "name": "Express an opinion",
+            "description": "In this part of the test, you will give your opinion about a specific topic. Be sure to say as much as you can in the time allowed. You will have 15 seconds to prepare. Then you will have 60 seconds to speak.",
+            "description_en": "In this part of the test, you will give your opinion about a specific topic. Be sure to say as much as you can in the time allowed. You will have 15 seconds to prepare. Then you will have 60 seconds to speak.",
+            "icon" : "ic_speaking_part6",
+            "isLock" : true
+        }
+    ],
+    "Writing": [
+        {
+            "part": 14,
+            "part_index": 1,
+            "kind": "write a sentence",
+            "number_ques": 5,
+            "name": "Write a sentence",
+            "description": "- With each picture, you’ll be given two words or phrases that you need to use in a sentence.\n- You can change the forms of the words and use the words in any order.",
+            "description_en": "- With each picture, you’ll be given two words or phrases that you need to use in a sentence.\n- You can change the forms of the words and use the words in any order.",
+            "icon" : "ic_writing_part1",
+            "isLock" : false
+        },
+        {
+            "part": 15,
+            "part_index": 2,
+            "kind": "respond a request",
+            "number_ques": 3,
+            "name": "Respond a request",
+            "description": "- Show how well you can write email responses.\n- 10 minutes to read and answer each email.",
+            "description_en": "- Show how well you can write email responses.\n- 10 minutes to read and answer each email.",
+            "icon" : "ic_writing_part2",
+            "isLock" : true
+        },
+        {
+            "part": 16,
+            "part_index": 3,
+            "kind": "write an opinion essay",
+            "number_ques": 3,
+            "name": "Write an opinion essay",
+            "description": "- Write an essay in response to a question that asks you to state, explain and support your opinion on an issue.\n- Typically, an effective essay will contain a minimum of 300 words.",
+            "description_en": "- Write an essay in response to a question that asks you to state, explain and support your opinion on an issue.\n- Typically, an effective essay will contain a minimum of 300 words.",
+            "icon" : "ic_writing_part3",
+            "isLock" : true
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            
+            <style type='text/css'>
+                body {
+                    font-size: <font_size>;
+                    font-family: <font_normal>,sans-serif;
+                    color: <bodyColor>;
+                    line-height: 2em;
+                    letter-spacing: 0px;
+                }
+                .explain span, .explain p, .explain b, .explain strong {
+                    word-break: break-word;
+                    font-size: <font_size>!important;
+                    font-family: <font_normal>,sans-serif!important;
+                    color: white!important;
+                    line-height: 2em!important;
+                    letter-spacing: 0px!important;
+                }
+                .question span, .question p, .question b, .question strong {
+                    word-break: break-word;
+                    font-size: <font_size>!important;
+                    font-family: <font_normal>,sans-serif!important;
+                    color: <bodyColor>!important;
+                    line-height: 2em!important;
+                    letter-spacing: 0px!important;
+                    
+                }
+                .questionMulti span, .questionMulti p, .questionMulti b, .questionMulti strong, .questionMulti {
+                    word-break: break-word;
+                    font-size: <font_size>!important;
+                    font-family: <font_normal>,sans-serif!important;
+                    color: <bodyColor>!important;
+                    line-height: 2em!important;
+                    letter-spacing: 0px!important;
+                    margin-left: 20px;
+                }
+                .number-question {
+                    word-break: break-word;
+                    border: 1px solid <bodyColor>;
+                    min-width: 30px;
+                    line-height: 30px;
+                    float: left;
+                    margin-right: 10px;
+                    text-align: center;
+                }
+            
+                table, .question  {
+                    word-break: break-all;
+                    width: 100%!important;
+                }
+                .explain u{
+                    word-break: break-word;
+                    border-bottom : 1px solid white;
+                    width : fit-content;
+                    text-decoration: none!important;
+                    padding-bottom: 2px;
+                }
+                .question u{
+                    word-break: break-word;
+                    border-bottom : 2px solid <bodyColor>;
+                    width : fit-content;
+                    text-decoration: none!important;
+                    padding-bottom: 5px;
+                }
+                .questionMulti u{
+                    word-break: break-word;
+                    border-bottom : 2px solid <bodyColor>;
+                    width : fit-content;
+                    text-decoration: none!important;
+                    padding-bottom: 5px;
+                }
+                .questions p{
+                    padding-left: 35px;
+                }
+            
+                hightlight.dicWin {
+                    color: <hightLightColor>;
+                    font-weight : 600!important;
+                }
+                div.explainss {
+                    word-break: break-word;
+                    border-radius: 4px;
+                    padding: 3px 8px;
+                    border: 2px solid <bodyColor>;
+                    color: <bodyColor>;
+                }
+                div.explain table {
+                    background: transparent!important;
+                }
+                span.dicWin {
+                    border-bottom: 2px solid rgb(0,145,234);
+                }
+            
+            </style>
+            </head>
+    <body>
+        <news_body>
+            <script type="text/javascript">
+                function setupWKWebViewJavascriptBridge(callback) {
+                    if (window.WKWebViewJavascriptBridge) { return callback(WKWebViewJavascriptBridge); }
+                    if (window.WKWVJBCallbacks) { return window.WKWVJBCallbacks.push(callback); }
+                    window.WKWVJBCallbacks = [callback];
+                    window.webkit.messageHandlers.iOS_Native_InjectJavascript.postMessage(null)
+                }
+            
+                setupWKWebViewJavascriptBridge(function(bridge) {
+                    var dictWins = document.getElementsByClassName("dicWin");
+                    for (var i = 0; i < dictWins.length; i++) {
+                        dictWins[i].addEventListener("click", function (e) {
+                            var contentHtml = e.currentTarget.innerHTML.trim();
+                            if (contentHtml != '') {
+                                bridge.callHandler("onHighlightClicked", {'content': contentHtml}, null);
+                            }
+                        });
+                    }
+                    
+                    var questionAnswers = document.getElementsByClassName("question-answer");
+                    for (var i = 0; i < questionAnswers.length; i++) {
+                        questionAnswers[i].addEventListener("click", function (e) {
+                            var contentHtml = this.dataset.id;
+                            if (contentHtml != '') {
+                                bridge.callHandler("onAnswerChoose", {'content': contentHtml}, null);
+                            }
+                        });
+                    }
+                });
+                
+                document.addEventListener('selectionchange', function() {
+                    var range, content = '', rect;
+                    if (document.selection && document.selection.createRange) {
+                        content = range.htmlText;
+                    } else if (window.getSelection) {
+                        var selection = window.getSelection();
+                        if (selection.rangeCount > 0) {
+                            range = selection.getRangeAt(0);
+                            rect = range.getBoundingClientRect();
+                            var clonedSelection = range.cloneContents();
+                            var div = document.createElement('div');
+                            div.appendChild(clonedSelection);
+                            content = div.innerHTML;
+                        }
+                    }
+                    content = content.replace(/<.*?>/g, "").trim();
+                    WKWebViewJavascriptBridge.callHandler("onSelectionChange", {'content': content,'rect':rect}, null);
+                })
+                
+                function image(img) {
+                    var src = img.alt;
+                    WKWebViewJavascriptBridge.callHandler("onImageClick", {'image': src}, null);
+                }
+
+       </script>
+    </body>
+</html>
+

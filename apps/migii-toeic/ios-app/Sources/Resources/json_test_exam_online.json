@@ -1,0 +1,41 @@
+{
+  "Err": null,
+  "Event": [
+    {
+      "event_id": 2,
+      "kind": "test",
+      "start": 1660530052000,
+      "end": 1660558872000,
+      "count_question": 200,
+      "time": 120,
+      "status": 0,
+      "timeServer": 1660558708520,
+      "image": "https://mytest.eupgroup.net/event_imgs/_16559529930.jpg",
+      "title": "VƯỢT CẠN N3 - Tuần 1 T6/2021"
+    },
+    {
+      "event_id": 3,
+      "kind": "test",
+      "start": 1660558774871,
+      "end": 1760530183000,
+      "count_question": 200,
+      "time": 120,
+      "status": 1,
+      "timeServer": 1660558708520,
+      "image": "https://mytest.eupgroup.net/event_imgs/_16559529930.jpg",
+      "title": "VƯỢT CẠN N3 - Tuần 2 T6/2021"
+    },
+    {
+      "event_id": 1,
+      "kind": "test",
+      "start": 1622826000000,
+      "end": 1622826000000,
+      "count_question": 200,
+      "time": 120,
+      "status": 2,
+      "timeServer": 1660558708520,
+      "image": "https://mytest.eupgroup.net/event_imgs/_16559529930.jpg",
+      "title": "VƯỢT CẠN N3 - Tuần 3 T6/2021"
+    }
+  ]
+}
