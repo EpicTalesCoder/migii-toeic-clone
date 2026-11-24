@@ -511,7 +511,7 @@ public struct CountPurchaseJSONObject: Codable {
 public struct PremiumReviewObject: Codable {
     public var name: String?
     public var star: Int?
-    public var time: Int?
+    public var time: String?
     public var date: String?
     public var content: String?
     public var urlImage: String?
