@@ -184,7 +184,7 @@ public final class APIClient {
     }
 
     // Port of https://toeic.migii.net/resapi/Users/signin & register
-    public func signIn(email: String, password: String, completion: @escaping (Result<UserProfileJSONObject.User, String>) -> Void) {
+    public func signIn(email: String, password: String, completion: @escaping (Result<UserProfileJSONObject.User, Error>) -> Void) {
         let payload: [String: Any] = ["email": email, "password": password]
         requestDecodable(urlString: Endpoints.signin, method: "POST", jsonBody: payload) { (result: Result<UserProfileJSONObject, Error>) in
             switch result {
@@ -192,15 +192,16 @@ public final class APIClient {
                 if let user = obj.User {
                     completion(.success(user))
                 } else {
-                    completion(.failure(obj.Err?.message ?? tr("account_not_correct", "Email or password not correct, please try again.")))
+                    let message = obj.Err?.message ?? tr("account_not_correct", "Email or password not correct, please try again.")
+                    completion(.failure(NSError(domain: "MigiiAPI", code: -3, userInfo: [NSLocalizedDescriptionKey: message])))
                 }
             case .failure(let err):
-                completion(.failure(err.localizedDescription))
+                completion(.failure(err))
             }
         }
     }
 
-    public func register(name: String, email: String, phone: String, password: String, completion: @escaping (Result<UserProfileJSONObject.User, String>) -> Void) {
+    public func register(name: String, email: String, phone: String, password: String, completion: @escaping (Result<UserProfileJSONObject.User, Error>) -> Void) {
         let payload: [String: Any] = [
             "name": name, "email": email, "phone": phone, "password": password,
             "language": LanguageManager.shared.currentCode, "country": UserDefaultHelper.shared.countryCode
@@ -211,10 +212,11 @@ public final class APIClient {
                 if let user = obj.User {
                     completion(.success(user))
                 } else {
-                    completion(.failure(obj.Err?.message ?? "Registration failed"))
+                    let message = obj.Err?.message ?? "Registration failed"
+                    completion(.failure(NSError(domain: "MigiiAPI", code: -4, userInfo: [NSLocalizedDescriptionKey: message])))
                 }
             case .failure(let err):
-                completion(.failure(err.localizedDescription))
+                completion(.failure(err))
             }
         }
     }

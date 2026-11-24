@@ -406,8 +406,8 @@ public final class SignInVC: UIViewController {
             case .success(let user):
                 UserDefaultHelper.shared.saveUserProfile(user)
                 self?.navigationController?.popViewController(animated: true)
-            case .failure(let msg):
-                ToastView.show(msg, isError: true)
+            case .failure(let err):
+                ToastView.show(err.localizedDescription, isError: true)
             }
         }
     }
@@ -479,8 +479,8 @@ public final class RegisterVC: UIViewController {
             case .success(let u):
                 UserDefaultHelper.shared.saveUserProfile(u)
                 self?.navigationController?.popToRootViewController(animated: true)
-            case .failure(let msg):
-                ToastView.show(msg, isError: true)
+            case .failure(let err):
+                ToastView.show(err.localizedDescription, isError: true)
             }
         }
     }
