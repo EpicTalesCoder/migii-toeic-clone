@@ -43,6 +43,9 @@ targets:
         excludes:
           - "Resources/Info.plist"
           - "Resources/Entitlements.plist"
+          - "Resources/json_feedback_user.json"
+    resources:
+      - path: Sources/Resources/json_feedback_user.json
     dependencies:
       - sdk: libsqlite3.tbd
       - sdk: StoreKit.framework
