@@ -546,7 +546,8 @@ public final class IntroduceAppVC: UIViewController {
         tv.backgroundColor = ColorHelper.cardBackground
         tv.layer.cornerRadius = 12
         tv.textContainerInset = UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16)
-        tv.text = "Migii TOEIC (v1.4.1) helps learners master Listening, Reading, Speaking, and Writing with personalized TOEIC study roadmaps, offline question packs, interactive grammar/vocabulary decks, and realistic ETS mock exams."
+        let ver = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.4.2"
+        tv.text = "Migii TOEIC (v\(ver)) helps learners master Listening, Reading, Speaking, and Writing with personalized TOEIC study roadmaps, offline question packs, interactive grammar/vocabulary decks, and realistic ETS mock exams."
         tv.translatesAutoresizingMaskIntoConstraints = false
 
         view.addSubview(nav)

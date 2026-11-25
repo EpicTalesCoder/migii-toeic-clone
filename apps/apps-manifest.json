@@ -12,6 +12,8 @@
     "deploymentTarget": "16.0",
     "signingMode": "unsigned-adhoc-trollstore-sideloadly",
     "projectSpec": "apps/migii-toeic/ios-app/project.yml",
-    "status": "ready-for-ci"
+    "status": "ready-for-ci",
+    "rebuildVersion": "1.4.2",
+    "rebuildBuild": "52"
   }
 ]
