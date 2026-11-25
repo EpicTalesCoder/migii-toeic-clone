@@ -1,5 +1,7 @@
 import Foundation
 
+private final class MigiiToeicBundleToken: NSObject {}
+
 // Port of Migii_TOEIC_ Data Models & Codable DTOs (__swift5_fieldmd & Resource JSON seeds)
 
 // MARK: - dataMigii*.json & Practice Catalog
@@ -518,7 +520,11 @@ public struct PremiumReviewObject: Codable {
     public var language: String?
 
     public static func loadBundledReviews() -> [PremiumReviewObject] {
-        guard let url = Bundle.main.url(forResource: "json_feedback_user", withExtension: "json"),
+        let bundles = [Bundle.main, Bundle(for: MigiiToeicBundleToken.self)]
+        let url = bundles.lazy.compactMap { bundle in
+            bundle.url(forResource: "json_feedback_user", withExtension: "json")
+        }.first
+        guard let url = url,
               let data = try? Data(contentsOf: url),
               let items = try? JSONDecoder().decode([PremiumReviewObject].self, from: data) else {
             return []

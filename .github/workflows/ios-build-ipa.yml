@@ -183,34 +183,36 @@ jobs:
               print("No *Tests target found; skipping Simulator XCTest step.")
               sys.exit(0)
 
+          runtime_proc = subprocess.run(
+              ["xcrun", "simctl", "list", "runtimes", "available", "-j"],
+              capture_output=True, text=True, check=True,
+          )
+          runtimes = json.loads(runtime_proc.stdout).get("runtimes", [])
+          target_runtime_ids = {
+              runtime["identifier"]
+              for runtime in runtimes
+              if runtime.get("isAvailable")
+              and runtime.get("name", "").startswith("iOS")
+              and runtime.get("version") == "16.1.1"
+          }
           sim_proc = subprocess.run(
               ["xcrun", "simctl", "list", "devices", "available", "-j"],
               capture_output=True, text=True, check=True,
           )
           devices_by_rt = json.loads(sim_proc.stdout).get("devices", {})
-          candidates = []
-          for rt, devs in devices_by_rt.items():
-              if "iOS" not in rt:
-                  continue
-              for d in devs:
-                  if d.get("isAvailable") and "iPhone" in d.get("name", ""):
-                      name = d["name"]
-                      # Prefer 6.5"-class / Plus / Max iPhone simulators closely matching XS Max (414x896 @3x)
-                      prio = 0
-                      if "XS Max" in name:
-                          prio = 100
-                      elif "Plus" in name or "Max" in name:
-                          prio = 80
-                      else:
-                          prio = 50
-                      candidates.append((prio, rt, name, d["udid"]))
+          candidates = [
+              (rt, d["name"], d["udid"])
+              for rt, devs in devices_by_rt.items()
+              if rt in target_runtime_ids
+              for d in devs
+              if d.get("isAvailable") and d.get("name") == "iPhone XS Max"
+          ]
 
           if not candidates:
-              print("::warning::No available iPhone Simulator runtime found on runner; skipping tests.")
+              print("::warning::iPhone XS Max with the iOS 16.1.1 Simulator runtime is not installed; skipping Simulator tests instead of using a different device or OS.")
               sys.exit(0)
 
-          candidates.sort(key=lambda x: (x[0], x[1]), reverse=True)
-          _, rt, name, udid = candidates[0]
+          rt, name, udid = sorted(candidates)[0]
           print(f"Running XCTests on Simulator: {name} ({rt}, id={udid})")
           cmd = [
               "xcodebuild", "test",
